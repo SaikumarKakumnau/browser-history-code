@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #3367d6;
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.search-box {
+  background-color: #2850a7;
+  margin: auto;
+  width: 400px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #6697ff;
+  border-radius: 5px;
+}
+
+.search-box input {
+  background-color: transparent;
+  color: #ffffff;
+  width: 400px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+
+.search-history-container {
+  background-color: #ffffff;
+}
+
+.no-Item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
